@@ -1,7 +1,0 @@
-mode: set
-github.com/cgilmour/uuid/uuid.go:22.29,27.16 3 1
-github.com/cgilmour/uuid/uuid.go:31.2,33.76 3 1
-github.com/cgilmour/uuid/uuid.go:27.16,29.3 1 1
-github.com/cgilmour/uuid/uuid.go:36.14,38.2 1 1
-github.com/cgilmour/uuid/uuid.go:40.14,42.2 1 1
-github.com/cgilmour/uuid/uuid.go:44.26,46.2 1 1

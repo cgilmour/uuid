@@ -5,16 +5,16 @@
 package main
 
 import (
-	"fmt"
 	"flag"
+	"fmt"
 	"github.com/cgilmour/uuid"
 	"os"
 )
 
 var (
-	file = flag.String("f", "", "file or device to read random data")
+	file  = flag.String("f", "", "file or device to read random data")
 	upper = flag.Bool("u", false, "show the result in upper-case")
-	n = flag.Uint("n", 1, "number of results to produce")
+	n     = flag.Uint("n", 1, "number of results to produce")
 )
 
 func main() {

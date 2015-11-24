@@ -15,8 +15,8 @@ var source io.Reader = rand.Reader
 var format = lowerFormat
 
 const (
-	upperFormat = "%04X-%02X-%02X-%02X-%06X"
-	lowerFormat = "%04x-%02x-%02x-%02x-%06x"
+	upperFormat = "%08X-%04X-%04X-%04X-%012X"
+	lowerFormat = "%08x-%04x-%04x-%04x-%012x"
 )
 
 func New4() (string, error) {
